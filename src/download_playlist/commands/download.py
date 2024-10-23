@@ -60,7 +60,6 @@ def run(
         Path,
         typer.Option(
             "-d",
-            exists=True,
             file_okay=False,
             dir_okay=True,
             writable=True,
